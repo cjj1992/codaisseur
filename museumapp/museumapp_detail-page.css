@@ -1,0 +1,53 @@
+.detail_img {
+    width: 450px;
+}
+.detail_img_d{
+    margin: 0 auto;
+}
+
+.detail_txt{
+    text-align: center;
+}
+
+.comments_vb{
+    border: 1px solid black;
+    border-radius: 20px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.sectio{
+    margin: 25px auto 25px auto;
+}
+
+.for{
+    margin: 25px auto 25px auto;
+}
+
+.button_des{
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    background-color: black;
+}
+
+.button_des:hover{
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    background-color: rgb(162, 215, 250);
+}
+
+.text_1{
+    height: 5em;
+}
