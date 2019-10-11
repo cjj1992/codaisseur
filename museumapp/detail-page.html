@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+     <script src="detail-page.js"></script>
 </head>
     <body class="background">
             <main>
@@ -21,7 +22,21 @@
                     <h3>Arien said:</h3>
                     <p>"This is definitely one of my favorites!"</p>
                     </div>
-                    <div class="comments_vb for">
+                          <form onsubmit="submitComment(); return false">
+                            <div class="formSection">
+                              <label for="name">Name:</label>
+                              <input type="text" id="name">
+                            </div>
+                            <div class="formSection">
+                              <label for="msg">Message:</label>
+                              <textarea id="msg"></textarea>
+                            </div>
+                            <div class="button">
+                              <button type="default">Post your comment</button>
+                            </div>
+                          </form>
+                    
+                    <!-- <div class="comments_vb for" onsubmit="submitComment(); return false">
                         <div class="sectio">
                             <Label>Name</Label>
                             <input type="text" class="name">
@@ -33,7 +48,7 @@
                         <div class="button">
                             <button class="button_des"type="default">Post your comment</button>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </main>
             <footer></footer>
