@@ -1,10 +1,11 @@
-const age = 31              // age
-const gender = 'm'          // 'm' or 'f'
-const heightInM = 1.98      // height in m
-const weightInKg = 88       // weight in kg
-const dailyExercise = true  // true or false
-const heightICM = heightInM * 100
-const genderModifer = gender === 'm' ? 5 : - 161
+//Dit is een aanpassing
+// const age = 31              // age
+// const gender = 'm'          // 'm' or 'f'
+// const heightInM = 1.98      // height in m
+// const weightInKg = 88       // weight in kg
+// const dailyExercise = true  // true or false
+// const heightICM = heightInM * 100
+// const genderModifer = gender === 'm' ? 5 : - 161
 
 //BMR = 10 * weight(kg) + 6.25 * height(cm) - 5 * age(y) + 5 calories (man) 
 //BMR = 10 * weight(kg) + 6.25 * height(cm) - 5 * age(y) - 161 calories (woman)
